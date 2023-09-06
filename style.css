@@ -10,11 +10,11 @@
 
 body {
     background-color: #D74949;
-    min-width: fit-content;
 }
 
 main {
     background-color: #F3F3F3;
+    min-width: fit-content;
     max-width: 75vw;
     margin: auto;
     padding: 100px 51px 100px 50px;
