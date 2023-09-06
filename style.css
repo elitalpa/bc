@@ -14,7 +14,7 @@ main {
     background-color: #F3F3F3;
     max-width: 1110px;
     margin: auto;
-    padding: 100px 50px 100px 51px;
+    padding: 100px 51px 100px 50px;
     height: fit-content;
     min-height: calc(100vh - 70px);
 }
