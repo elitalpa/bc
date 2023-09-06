@@ -9,3 +9,27 @@ body {
     background-color: #D74949;
     min-width: fit-content;
 }
+
+main {
+    background-color: #F3F3F3;
+    max-width: 1110px;
+    margin: auto;
+    padding: 100px 50px 100px 51px;
+}
+
+footer {
+    background-color: #3A3A3A;
+    width: 100%;
+    padding: 27px 0px 27px 0px;
+    height: 70px;
+}
+
+footer p {
+    color: #FFFFFF;
+    text-align: center;
+    font-family: Roboto;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
