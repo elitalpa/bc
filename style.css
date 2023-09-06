@@ -35,3 +35,23 @@ footer p {
     font-weight: 700;
     line-height: normal;
 }
+
+main h1 {
+    color: #000000;
+    font-family: Roboto;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 300;
+    line-height: normal;
+}
+
+main h2 {
+    color: #000000;
+    text-align: right;
+    font-family: Roboto;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: normal;
+    letter-spacing: 1.12px;
+}
