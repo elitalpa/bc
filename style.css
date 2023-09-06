@@ -15,6 +15,8 @@ main {
     max-width: 1110px;
     margin: auto;
     padding: 100px 50px 100px 51px;
+    height: fit-content;
+    min-height: calc(100vh - 70px);
 }
 
 footer {
