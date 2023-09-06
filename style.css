@@ -1,9 +1,12 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;700;800&display=swap');
+
 * {
     margin: 0;
     box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
 }
 
-@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;700;800&display=swap');
+
 
 body {
     background-color: #D74949;
@@ -12,7 +15,7 @@ body {
 
 main {
     background-color: #F3F3F3;
-    max-width: 1110px;
+    max-width: 75vw;
     margin: auto;
     padding: 100px 51px 100px 50px;
     height: fit-content;
@@ -29,7 +32,6 @@ footer {
 footer p {
     color: #FFFFFF;
     text-align: center;
-    font-family: Roboto;
     font-size: 14px;
     font-style: normal;
     font-weight: 700;
@@ -38,7 +40,6 @@ footer p {
 
 main > h1 {
     color: #000000;
-    font-family: Roboto;
     font-size: 14px;
     font-style: normal;
     font-weight: 300;
@@ -49,7 +50,6 @@ main > h1 {
 main > h2 {
     color: #000000;
     text-align: right;
-    font-family: Roboto;
     font-size: 16px;
     font-style: normal;
     font-weight: 800;
@@ -61,7 +61,6 @@ main > h2 {
 main > p {
     color: #000000;
     text-align: center;
-    font-family: Roboto;
     font-size: 20px;
     font-style: normal;
     font-weight: 700;
@@ -104,7 +103,6 @@ main > p span {
 
 .description .name {
     color: #000000;
-    font-family: Roboto;
     font-size: 14px;
     font-style: normal;
     font-weight: 700;
@@ -115,7 +113,6 @@ main > p span {
 
 .description .title {
     color: #000000;
-    font-family: Roboto;
     font-size: 14px;
     font-style: normal;
     font-weight: 300;
