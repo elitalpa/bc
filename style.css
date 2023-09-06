@@ -36,7 +36,7 @@ footer p {
     line-height: normal;
 }
 
-main h1 {
+main > h1 {
     color: #000000;
     font-family: Roboto;
     font-size: 14px;
@@ -45,7 +45,7 @@ main h1 {
     line-height: normal;
 }
 
-main h2 {
+main > h2 {
     color: #000000;
     text-align: right;
     font-family: Roboto;
@@ -54,4 +54,19 @@ main h2 {
     font-weight: 800;
     line-height: normal;
     letter-spacing: 1.12px;
+}
+
+main > p {
+    color: #000000;
+    text-align: center;
+    font-family: Roboto;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    text-transform: uppercase;
+}
+
+main > p span {
+    color: #8F2727;
 }
