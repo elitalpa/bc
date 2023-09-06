@@ -14,7 +14,7 @@ body {
 
 main {
     background-color: #F3F3F3;
-    min-width: fit-content;
+    min-width: 300px;
     max-width: 75vw;
     margin: auto;
     padding: 100px 51px 100px 50px;
@@ -24,6 +24,7 @@ main {
 
 footer {
     background-color: #3A3A3A;
+    min-width: 300px;
     width: 100%;
     padding: 27px 0px 27px 0px;
     height: 70px;
