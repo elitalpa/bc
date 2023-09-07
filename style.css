@@ -9,3 +9,16 @@
     margin: 0;
     box-sizing: border-box;
 }
+
+body {
+    background-color: #2D4480;
+}
+
+.card {
+    background: #FFFFFF;
+    padding: 35px 50px 69px 50px;
+}
+
+.card ul {
+    list-style-type: none;
+}
