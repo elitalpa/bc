@@ -1,0 +1,11 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+Symbols:wght@300;600;700&display=swap');
+/* font-family: 'Noto Sans Symbols', sans-serif; */
+
+
+@import url('https://fonts.googleapis.com/css2?family=Allan&display=swap');
+/* font-family: 'Allan', cursive; */
+
+* {
+    margin: 0;
+    box-sizing: border-box;
+}
