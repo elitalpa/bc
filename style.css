@@ -8,29 +8,25 @@
 * {
     margin: 0;
     box-sizing: border-box;
+    font-family: 'Noto Sans Symbols', sans-serif;
 }
 
 body {
     background-color: #2D4480;
-    font-family: 'Noto Sans Symbols', sans-serif;
-
     height: 100vh;
     width: 100vw;
     min-width: fit-content;
-
     display: flex;
     align-items: center;
     justify-content: center;
 }
 
 .card {
+    position: relative;
     background-color: #FFFFFF;
-
     padding: 35px 50px 69px 50px;
-
     width: fit-content;
     height: fit-content;
-
     border-radius: 27px;
     box-shadow: 5px 20px 50px 0px rgba(0, 0, 0, 0.60);
 }
@@ -87,4 +83,27 @@ body {
     font-size: 36px;
     font-weight: 400;
     line-height: 36px;
+}
+
+.card button {
+    position: absolute;
+    top: 435px;
+    width: 181px;
+    height: 68px;
+    cursor: pointer;
+    transition-duration: 0.5s;
+    background-color: #FFBC0F;
+    border:none;
+    border-radius: 34px;
+    text-align: center;
+    text-transform: uppercase;
+    color: #253868;
+    font-size: 16px;
+    font-weight: 600;
+    letter-spacing: 0.96px;
+}
+
+.card button:hover {
+    background-color: #000000;
+    color: #FFBC0F;
 }
