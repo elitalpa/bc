@@ -48,3 +48,10 @@ body {
     list-style-type: none;
     padding-inline-start: 0px;
 }
+
+.card hr {
+    width: 188px;
+    border: 1px solid #000000;
+    margin-top: 27px;
+    margin-bottom: 8px;
+}
