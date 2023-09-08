@@ -1,0 +1,109 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+Symbols:wght@300;600;700&display=swap');
+/* font-family: 'Noto Sans Symbols', sans-serif; */
+
+
+@import url('https://fonts.googleapis.com/css2?family=Allan&display=swap');
+/* font-family: 'Allan', cursive; */
+
+* {
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Noto Sans Symbols', sans-serif;
+}
+
+body {
+    background-color: #2D4480;
+    height: 100vh;
+    width: 100vw;
+    min-width: fit-content;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.card {
+    position: relative;
+    background-color: #FFFFFF;
+    padding: 35px 50px 69px 50px;
+    width: fit-content;
+    height: fit-content;
+    border-radius: 27px;
+    box-shadow: 5px 20px 50px 0px rgba(0, 0, 0, 0.60);
+}
+
+.card h1 {
+    text-align: center;
+    text-transform: uppercase;
+    font-size: 36px;
+    font-weight: 300;
+    line-height: 36px;
+    margin-bottom: 28px;
+}
+
+.card ul {
+    display: flex;
+    flex-direction: column;
+    row-gap: 5px;
+    list-style-type: none;
+    padding-inline-start: 0px;
+}
+
+.card ul li {
+    display: flex;
+    align-items: center;
+    column-gap: 23px;
+    text-transform: uppercase;
+    font-size: 16px;
+    font-weight: 600;
+    letter-spacing: 0.96px;
+}
+
+.card hr {
+    width: 188px;
+    border: 1px solid #000000;
+    margin-top: 27px;
+    margin-bottom: 8px;
+}
+
+.card .free  {
+    text-align: center;
+    text-transform: uppercase;
+    font-size: 36px;
+    font-weight: 700;
+    line-height: 36px;
+    letter-spacing: 4.68px;
+    margin-bottom: 9px;
+}
+
+.card .forever {
+    transform: translate(calc(132px - 50px), 0px);
+    width: fit-content;
+    font-family: 'Allan', cursive;
+    color: #2D4480;
+    font-size: 36px;
+    font-weight: 400;
+    line-height: 36px;
+}
+
+.card button {
+    position: absolute;
+    top: 435px;
+    width: 181px;
+    height: 68px;
+    cursor: pointer;
+    transition-duration: 0.5s;
+    background-color: #FFBC0F;
+    border:none;
+    border-radius: 34px;
+    text-align: center;
+    text-transform: uppercase;
+    color: #253868;
+    font-size: 16px;
+    font-weight: 600;
+    letter-spacing: 0.96px;
+}
+
+.card button:hover {
+    background-color: #000000;
+    color: #FFBC0F;
+}
