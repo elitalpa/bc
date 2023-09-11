@@ -8,5 +8,5 @@ Published with GitHub Pages : [elitalpa.github.io/bc/](https://elitalpa.github.i
     - [source code](https://github.com/elitalpa/bc/tree/main/projects/css-pixel-perfect)
 - [02 - css-flex](./projects/css-flex/index.html)
     - [source code](https://github.com/elitalpa/bc/tree/main/projects/css-flex)
-- [03 - css-mondrian-painting](./projects/css-mondrian-painting/index.html)
-    - [source code](https://github.com/elitalpa/bc/tree/main/projects/css-mondrian-painting)
+- [03 - css-grid-mondrian-painting](./projects/css-grid-mondrian-painting/index.html)
+    - [source code](https://github.com/elitalpa/bc/tree/main/projects/css-grid-mondrian-painting)
