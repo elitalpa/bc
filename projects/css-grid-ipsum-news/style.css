@@ -20,6 +20,8 @@ body {
     margin: 0 auto;
 }
 
+/* header begin*/
+
 header {
     background-color: #3a3d46;
 }
@@ -56,11 +58,99 @@ header .container {
     justify-content: space-between;
 }
 
+/* header end */
+/*************************/
+/* text section begin */
+
 .text-section {
     color: #FFFFFF;
     background-color: #232323;
+    padding-top: 20px;
+    padding-bottom: 20px;
 }
+
+.text-grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+
+.text-flex {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 22px;
+}
+
+
+.text-flex h1 {
+    text-transform: uppercase;
+    font-family: 'Raleway', sans-serif;
+    font-size: 65px;
+    font-weight: 800;
+    line-height: 100%; /* 65px */
+    letter-spacing: 2.6px;
+}
+
+.text-flex h1 span {
+    color: #FFB800;
+    font-family: 'Raleway', sans-serif;
+    font-size: 65px;
+    font-weight: 800;
+    line-height: 100%;
+    letter-spacing: 2.6px;
+}
+
+.text-flex .slogan {
+    text-transform: capitalize;
+    color: #007DFC;
+    font-family: Raleway;
+    font-size: 26px;
+    font-weight: 800;
+    line-height: 100%; /* 26px */
+    letter-spacing: 1.04px;
+}
+
+.text-flex hr {
+    background-color: #949494;;
+    max-width: 463px;
+    height: 2px;
+}
+
+.text-flex .description {
+    max-width: 387px;
+    font-family: 'Raleway', sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 130.5%; /* 20.88px */
+    letter-spacing: 0.32px;
+}
+
+.text-flex button {
+    background-color: #FFB800;
+    transition-duration: 2s;
+    cursor: pointer;
+    border: none;
+    border-radius: 45px;
+    padding: 10px 27px ;
+    text-align: center;
+    font-family: 'Raleway', sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 130.5%; /* 20.88px */
+    letter-spacing: 0.32px;
+}
+
+.text-flex button:hover {
+    background-color: #007DFC;
+    color: #FFFFFF;
+}
+
+/* text section end */
+/*************************/
+/* articles section begin */
 
 .articles-section {
     background-color: #F6F6F6;
 }
+
+/* articles section end */
