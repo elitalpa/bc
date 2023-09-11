@@ -1,8 +1,9 @@
 # bc
 
-Published with GitHub Pages.
+Published with GitHub Pages.  
+[elitalpa.github.io/bc/](https://elitalpa.github.io/bc/)
 
-## Projects
+## [Projects](https://elitalpa.github.io/bc/)
 
 - [01 - css-pixel-perfect](https://elitalpa.github.io/bc/projects/css-pixel-perfect/index.html)
     - [source code](https://github.com/elitalpa/bc/tree/main/projects/css-pixel-perfect)
