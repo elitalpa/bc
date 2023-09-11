@@ -7,4 +7,14 @@ body {
     height: 100vh;
     width: 100vw;
     min-width: fit-content;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.mondrian-painting-grid-container {
+    background-color: black;
+    height: 748px;
+    width: 748px; 
+    display: grid;
 }
