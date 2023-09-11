@@ -17,4 +17,47 @@ body {
     height: 748px;
     width: 748px; 
     display: grid;
+    grid-template-columns: 320px 198px 153px 50px;
+    grid-template-rows: 414px 130px 155px 22px;
+    gap: 9px;
+}
+
+.mondrian-painting [class^='item'] {
+    background-color: #F0F1EC;
+}
+
+.mondrian-painting .red {
+    background-color: #E72F24;
+}
+
+.mondrian-painting .item2 {
+    grid-column: span 3;
+}
+
+.mondrian-painting .item3 {
+    grid-row: span 2;
+}
+
+.mondrian-painting .item4 {
+    grid-area: 2 / 2 / 4 / 4;
+}
+
+.mondrian-painting .blue {
+    background-color: #004592;
+}
+
+.mondrian-painting .item5 {
+    border-bottom: 10px solid black;
+}
+
+.mondrian-painting .item6 {
+    grid-row: span 2;
+}
+
+.mondrian-painting .yellow {
+    background-color: #F8D01F;
+}
+
+.mondrian-painting .black {
+    background-color: #242629;
 }
