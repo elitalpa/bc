@@ -11,3 +11,5 @@ Published with GitHub Pages.
     - [source code](https://github.com/elitalpa/bc/tree/main/projects/css-flex)
 - [03 - css-grid-mondrian-painting](https://elitalpa.github.io/bc/projects/css-grid-mondrian-painting/index.html)
     - [source code](https://github.com/elitalpa/bc/tree/main/projects/css-grid-mondrian-painting)
+- [04 - css-grid-ipsum-news](https://elitalpa.github.io/bc/projects/css-grid-ipsum-news/index.html)
+    - [source code](https://github.com/elitalpa/bc/tree/main/projects/css-grid-ipsum-news)
