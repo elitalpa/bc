@@ -59,3 +59,19 @@ body {
         visibility: visible;
     }
 }
+
+@media (min-width: 1920px) {
+    body {
+        background-color: cornflowerblue;
+    }
+
+    .a,.b,.c,.d {
+        display: none;
+        visibility: hidden;
+    }
+
+    .e {
+        display: block;
+        visibility: visible;
+    }
+}
