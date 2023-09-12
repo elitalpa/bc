@@ -14,4 +14,9 @@ Published with GitHub Pages.
 - [04 - css-grid-ipsum-news](https://elitalpa.github.io/bc/projects/css-grid-ipsum-news/index.html)
     - [source code](https://github.com/elitalpa/bc/tree/main/projects/css-grid-ipsum-news)
 - [05 - css-mq1](https://elitalpa.github.io/bc/projects/css-mq1/index.html)
-  - [source code](https://github.com/elitalpa/bc/tree/main/projects/css-mq1)
+    - [source code](https://github.com/elitalpa/bc/tree/main/projects/css-mq1)
+- [06 - css-mq2-flex](https://elitalpa.github.io/bc/projects/css-mq2-flex/index.html)
+    - [source code](https://github.com/elitalpa/bc/tree/main/projects/css-mq2-flex)
+- [07 - css-mq2-grid](https://elitalpa.github.io/bc/projects/css-mq2-grid/index.html)
+    - [source code](https://github.com/elitalpa/bc/tree/main/projects/css-mq2-grid)
+
