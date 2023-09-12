@@ -11,3 +11,19 @@ body {
     display: none;
     visibility: hidden;
 }
+
+@media (min-width: 768px) {
+    body {
+        background-color: pink;
+    }
+
+    .a,.c,.d,.e {
+        display: none;
+        visibility: hidden;
+    }
+
+    .b {
+        display: block;
+        visibility: visible;
+    }
+}
