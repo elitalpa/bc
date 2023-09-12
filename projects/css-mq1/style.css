@@ -2,3 +2,12 @@
     margin: 0;
     box-sizing: border-box;
 }
+
+body {
+    background-color: gold;
+}
+
+.b,.c,.d,.e {
+    display: none;
+    visibility: hidden;
+}
