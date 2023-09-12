@@ -27,3 +27,19 @@ body {
         visibility: visible;
     }
 }
+
+@media (min-width: 1280px) {
+    body {
+        background-color: chocolate;
+    }
+
+    .a,.b,.d,.e {
+        display: none;
+        visibility: hidden;
+    }
+
+    .c {
+        display: block;
+        visibility: visible;
+    }
+}
