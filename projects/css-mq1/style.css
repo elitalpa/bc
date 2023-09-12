@@ -43,3 +43,19 @@ body {
         visibility: visible;
     }
 }
+
+@media (min-width: 1440px) {
+    body {
+        background-color: cadetblue;
+    }
+
+    .a,.b,.c,.e {
+        display: none;
+        visibility: hidden;
+    }
+
+    .d {
+        display: block;
+        visibility: visible;
+    }
+}
