@@ -3,8 +3,11 @@
 Published with GitHub Pages.  
 [elitalpa.github.io/bc/](https://elitalpa.github.io/bc/)
 
-## [Projects](https://elitalpa.github.io/bc/)
+See source code on GitHub: [github.com/elitalpa/bc](https://github.com/elitalpa/bc)
 
+## Projects
+
+### CSS
 - [01 - css-pixel-perfect](https://elitalpa.github.io/bc/projects/css-pixel-perfect/index.html)
     - [source code](https://github.com/elitalpa/bc/tree/main/projects/css-pixel-perfect)
 - [02 - css-flex](https://elitalpa.github.io/bc/projects/css-flex/index.html)
@@ -19,4 +22,11 @@ Published with GitHub Pages.
     - [source code](https://github.com/elitalpa/bc/tree/main/projects/css-mq2-flex)
 - [07 - css-mq2-grid](https://elitalpa.github.io/bc/projects/css-mq2-grid/index.html)
     - [source code](https://github.com/elitalpa/bc/tree/main/projects/css-mq2-grid)
+- [08]
+    - [source code]
+- [09]
+    - [source code]
+
+## JavaScript
+
 
