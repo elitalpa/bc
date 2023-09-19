@@ -30,4 +30,6 @@ See source code on GitHub: [github.com/elitalpa/bc](https://github.com/elitalpa/
 ### JavaScript
 
 - [03b - Swap Variables](https://elitalpa.github.io/bc/projects/js-swap-variables/index.html)
-    - [source code](https://github.com/elitalpa/bc/tree/main/projects/js-swap-variables)
+    - [source code](https://github.com/elitalpa/bc/tree/main/projects/js-swap-variables/script.js)
+- [05b - whisper message](https://elitalpa.github.io/bc/projects/js-whisper-message/index.html)
+  - [source code](https://github.com/elitalpa/bc/tree/main/projects/js-whisper-message/script.js)
