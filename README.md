@@ -39,3 +39,5 @@ See source code on GitHub: [github.com/elitalpa/bc](https://github.com/elitalpa/
   - [source code](https://github.com/elitalpa/bc/tree/main/projects/js-skateboard-beard/script.js)
 - [07 - presenting the user](https://elitalpa.github.io/bc/projects/js-presenting-the-user/index.html)
   - [source code](https://github.com/elitalpa/bc/tree/main/projects/js-presenting-the-user/script.js)
+- [07 - add VAT](https://elitalpa.github.io/bc/projects/js-add-VAT/index.html)
+  - [source code](https://github.com/elitalpa/bc/tree/main/projects/js-add-VAT/script.js)
