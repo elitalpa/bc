@@ -29,4 +29,5 @@ See source code on GitHub: [github.com/elitalpa/bc](https://github.com/elitalpa/
 
 ### JavaScript
 
-
+- [03b - Swap Variables](https://elitalpa.github.io/bc/projects/js-swap-variables/index.html)
+    - [source code](https://github.com/elitalpa/bc/tree/main/projects/js-swap-variables)
