@@ -35,3 +35,5 @@ See source code on GitHub: [github.com/elitalpa/bc](https://github.com/elitalpa/
   - [source code](https://github.com/elitalpa/bc/tree/main/projects/js-whisper-message/script.js)
 - [05b - last character](https://elitalpa.github.io/bc/projects/js-last-character/index.html)
   - [source code](https://github.com/elitalpa/bc/tree/main/projects/js-last-character/script.js)
+- [05b - skateboard - beard](https://elitalpa.github.io/bc/projects/js-skateboard-beard/index.html)
+  - [source code](https://github.com/elitalpa/bc/tree/main/projects/js-skateboard-beard/script.js)
