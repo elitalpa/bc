@@ -7,7 +7,7 @@ var b = "8";
 [a, b] = [b, a] // using destructuring assignment syntax
 
 /* Alternative with temporary variable:
-temp = a;
+var temp = a;
 a = b;
 b = temp;
 */
