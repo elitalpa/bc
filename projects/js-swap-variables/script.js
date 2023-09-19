@@ -4,6 +4,14 @@ var b = "8";
 /***********Do not change the code above 👆*******/
 //Write your code here :
 
+[a, b] = [b, a] // using destructuring assignment syntax
+
+/* Alternative with temporary variable:
+temp = a;
+a = b;
+b = temp;
+*/
+
 /***********Do not change the code below 👇*******/
 
 console.log("a is " + a);
