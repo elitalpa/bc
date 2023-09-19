@@ -33,3 +33,5 @@ See source code on GitHub: [github.com/elitalpa/bc](https://github.com/elitalpa/
     - [source code](https://github.com/elitalpa/bc/tree/main/projects/js-swap-variables/script.js)
 - [05b - whisper message](https://elitalpa.github.io/bc/projects/js-whisper-message/index.html)
   - [source code](https://github.com/elitalpa/bc/tree/main/projects/js-whisper-message/script.js)
+- [05b - last character](https://elitalpa.github.io/bc/projects/js-last-character/index.html)
+  - [source code](https://github.com/elitalpa/bc/tree/main/projects/js-last-character/script.js)
