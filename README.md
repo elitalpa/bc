@@ -37,3 +37,5 @@ See source code on GitHub: [github.com/elitalpa/bc](https://github.com/elitalpa/
   - [source code](https://github.com/elitalpa/bc/tree/main/projects/js-last-character/script.js)
 - [05b - skateboard - beard](https://elitalpa.github.io/bc/projects/js-skateboard-beard/index.html)
   - [source code](https://github.com/elitalpa/bc/tree/main/projects/js-skateboard-beard/script.js)
+- [07 - presenting the user](https://elitalpa.github.io/bc/projects/js-presenting-the-user/index.html)
+  - [source code](https://github.com/elitalpa/bc/tree/main/projects/js-presenting-the-user/script.js)
