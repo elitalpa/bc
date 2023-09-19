@@ -45,3 +45,5 @@ See source code on GitHub: [github.com/elitalpa/bc](https://github.com/elitalpa/
   - [source code](https://github.com/elitalpa/bc/tree/main/projects/js-surface-of-a-circle/script.js)
 - [07 - calculator](https://elitalpa.github.io/bc/projects/js-calculator/index.html)
   - [source code](https://github.com/elitalpa/bc/tree/main/projects/js-calculator/script.js)
+- [10 - Cats or Dogs ?](https://elitalpa.github.io/bc/projects/js-cats-or-dogs/index.html)
+  - [source code](https://github.com/elitalpa/bc/tree/main/projects/js-cats-or-dogs/script.js)
