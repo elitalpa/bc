@@ -49,3 +49,5 @@ See source code on GitHub: [github.com/elitalpa/bc](https://github.com/elitalpa/
   - [source code](https://github.com/elitalpa/bc/tree/main/projects/js-cats-or-dogs/script.js)
 - [10 - keyless car](https://elitalpa.github.io/bc/projects/js-keyless-car/index.html)
   - [source code](https://github.com/elitalpa/bc/tree/main/projects/js-keyless-car/script.js)
+- [10 - What fruit ?](https://elitalpa.github.io/bc/projects/js-what-fruit/index.html)
+  - [source code](https://github.com/elitalpa/bc/tree/main/projects/js-what-fruit/script.js)
