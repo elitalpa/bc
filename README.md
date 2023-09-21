@@ -57,3 +57,7 @@ See source code on GitHub: [github.com/elitalpa/bc](https://github.com/elitalpa/
   - [source code](https://github.com/elitalpa/bc/tree/main/projects/js-array-initial/script.js)
 - [12 - array - planets](https://elitalpa.github.io/bc/projects/js-array-planets/index.html)
   - [source code](https://github.com/elitalpa/bc/tree/main/projects/js-array-planets/script.js)
+- [13 - object - product](https://elitalpa.github.io/bc/projects/js-object-product/index.html)
+  - [source code](https://github.com/elitalpa/bc/tree/main/projects/js-object-product/script.js)
+- [13 - object - restaurant](https://elitalpa.github.io/bc/projects/js-object-restaurant/index.html)
+  - [source code](https://github.com/elitalpa/bc/tree/main/projects/js-object-restaurant/script.js)
