@@ -1,25 +1,28 @@
-let prompt = require('prompt-sync')();
-
-let maxNumber = "";
-let randomNumber = 0;
-let guessedNumber = 0;
-let attempts = 0;
+// let prompt = require('prompt-sync')();
 
 let isNumber = true;
-let isFound = false;
+let isGuessANumber = true;
 let maxStoper = 5;
-let guessStoper = 5;
+
+let attempts = 0;
+
 const asciiZero = "0".charCodeAt(0); // 48
 const asciiNine = "9".charCodeAt(0); // 57
 
+let guessStoper = 5;
+let guessedNumber = 0;
+
+let maxNumber = "";
+
 do {
     if (maxStoper < 5) {
-        console.log(`Not a number! ${maxStoper} attempts remaining. Try again.`);
+        alert(`Not valid! ${maxStoper} attempts remaining. Try again.`);
     }
-    maxNumber = prompt("Enter the max number: ");
 
+    maxNumber = prompt("Please, enter a max number: ");
+
+    isNumber = true;
     for (let i = 0; i < maxNumber.length; i++) {
-        isNumber = true;
         if (maxNumber.charCodeAt(i) < asciiZero + 1 || maxNumber.charCodeAt(i) > asciiNine) {
             isNumber = false;
         }
@@ -27,44 +30,42 @@ do {
     maxStoper--;
 
     if (isNumber) {
-        randomNumber = Math.floor(Math.random() * parseInt(maxNumber) + 1);
-        console.log(`    (spoiler: ${randomNumber})`);
+        const randomNumber = Math.floor(Math.random() * parseInt(maxNumber) + 1);
+        alert(`(spoiler: ${randomNumber})`);
+
+        let isFound = false;
 
         while(!isFound && guessStoper > 0) {
-            if (guessStoper < 5) {
-                console.log(`Not a number! ${guessStoper} attempts remaining. Try again.`);
-            }
-            guessStoper--;
+            guessedNumber = prompt("Please, try to guess the number: ");
 
-            guessedNumber = prompt("Guess the number: ");
+            isGuessANumber = true
 
             for (let i = 0; i < guessedNumber.length; i++) {
-                isNumber = true;
                 if (guessedNumber.charCodeAt(i) < asciiZero || guessedNumber.charCodeAt(i) > asciiNine) {
-                    console.log("Not a valid answer.");
+                    alert(`Not a valid answer. ${guessStoper} attempts remaining. Try again.`);
+                    isGuessANumber = false;
+                    guessStoper--;
                     break;
                 }
             }
 
-            if (parseInt(guessedNumber) > randomNumber) {
-                attempts++;
-                console.log("lower");
-            } else if (parseInt(guessedNumber) < randomNumber) {
-                attempts++;
-                console.log("higher");
-            } else if (parseInt(guessedNumber) === randomNumber) {
-                attempts++;
-                isFound = true;
-                console.log(`You found the number in ${attempts} attempts.`);
+            if (isGuessANumber) {
+                if (parseInt(guessedNumber) > randomNumber) {
+                    attempts++;
+                    alert("Incorrect ! The guess should be Lower ;)");
+                } else if (parseInt(guessedNumber) < randomNumber) {
+                    attempts++;
+                    alert("Incorrect ! The guess should be Higher ;)");
+                } else if (parseInt(guessedNumber) === randomNumber) {
+                    attempts++;
+                    isFound = true;
+                    alert(`Congrats!! You found the number in ${attempts} attempts.`);
+                }
             }
         }
-
-
     }
-
-
 } while (!isNumber && maxStoper > 0);
 
-if (maxStoper <= 0) {
-    console.log("5 times, you didn't enter a number. Reload the page to try again.");
+if (maxStoper <= 0 || guessStoper <= 0) {
+    alert("You entered an incorrect value too many times. Reload the page to try again.");
 }
