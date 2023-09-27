@@ -30,7 +30,7 @@ while (!isFinished) {
             let isIndexANumber = true;
 
             for (let i = 0; i < deleteIndex.length; i++) {
-                if (isNaN(deleteIndex.charCodeAt(i))) {
+                if (isNaN(deleteIndex.charAt(i))) {
                     isIndexANumber = false;
                     alert(`Not a number. Can't delete.`);
                     break;
