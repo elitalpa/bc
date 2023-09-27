@@ -27,12 +27,10 @@ while (!isFinished) {
         case "delete":
             let deleteIndex = prompt("What is the number of the todo you wish to delete ?");
 
-            const asciiZero = "0".charCodeAt(0); // 48
-            const asciiNine = "9".charCodeAt(0); // 57
             let isIndexANumber = true;
 
             for (let i = 0; i < deleteIndex.length; i++) {
-                if (!isNaN(deleteIndex.charCodeAt(i))) {
+                if (isNaN(deleteIndex.charCodeAt(i))) {
                     isIndexANumber = false;
                     alert(`Not a number. Can't delete.`);
                     break;
