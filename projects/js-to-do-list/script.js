@@ -40,7 +40,8 @@ while (!isFinished) {
             if (isIndexANumber && deleteIndex > 0 && deleteIndex <= todoList.length) {
                 deleteIndex--;
                 todoList.splice(deleteIndex, 1);
-                console.log("The todo with the specified number was deleted.");
+                deleteIndex++;
+                console.log(`The todo with the number ${deleteIndex} was deleted.`);
             } else if (isIndexANumber) {
                 alert("Not a todo number. Can't delete.")
             }
