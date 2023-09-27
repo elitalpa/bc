@@ -3,7 +3,7 @@
 let maxNumber = "";
 let guessedNumber = 0;
 
-let isMaxANumber = true;
+let isMaxAValidNumber = true;
 let isGuessANumber = true;
 
 let maxStoper = 5;
@@ -17,18 +17,18 @@ const asciiNine = "9".charCodeAt(0); // 57
 do {
     maxNumber = prompt("Please, enter a max number: ");
 
-    isMaxANumber = true;
+    isMaxAValidNumber = true;
 
     for (let i = 0; i < maxNumber.length; i++) {
         if (maxNumber.charCodeAt(i) < asciiZero || maxNumber.charCodeAt(i) > asciiNine || maxNumber.charAt(0) == 0) {
-            isMaxANumber = false;
+            isMaxAValidNumber = false;
             maxStoper--;
             alert(`Not valid! ${maxStoper} tries remaining. Try again.`);
             break;
         }
     }
     
-    if (isMaxANumber) {
+    if (isMaxAValidNumber) {
         const randomNumber = Math.floor(Math.random() * parseInt(maxNumber) + 1);
         // alert(`(spoiler: ${randomNumber})`);
 
@@ -63,7 +63,7 @@ do {
             }
         }
     }
-} while (!isMaxANumber && maxStoper > 0);
+} while (!isMaxAValidNumber && maxStoper > 0);
 
 if (maxStoper <= 0 || guessStoper <= 0) {
     alert("You entered an incorrect value too many times. Reload the page to try again.");
