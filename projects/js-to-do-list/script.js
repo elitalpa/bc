@@ -1,11 +1,11 @@
-const commandsList = "\n    'new' to add a todo \n    'list' to see all the todos \n    'delete' to remove a specific todo \n    'quit' to exit de program \n";
+const commandsList = "\n    new → to add a todo \n    list → to see all the todos \n    delete → to remove a specific todo \n    quit → to exit de program \n";
 
 let todoList = [];
 
 let isFinished = false;
 
 while (!isFinished) {
-    let input = prompt(`Enter one of the following commands: ${commandsList} \nWhat is your action ?`);
+    let input = prompt(`Enter one of the following commands: ${commandsList} \nWhat is your command 🫡 ?`);
     let command = input.toLowerCase();
 
     switch (command) {
@@ -32,7 +32,7 @@ while (!isFinished) {
             let isIndexANumber = true;
 
             for (let i = 0; i < deleteIndex.length; i++) {
-                if (deleteIndex.charCodeAt(i) < asciiZero || deleteIndex.charCodeAt(i) > asciiNine) {
+                if (!isNaN(deleteIndex.charCodeAt(i))) {
                     isIndexANumber = false;
                     alert(`Not a number. Can't delete.`);
                     break;
