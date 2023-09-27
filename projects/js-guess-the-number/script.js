@@ -1,50 +1,49 @@
 // let prompt = require('prompt-sync')();
 
-let isNumber = true;
+let maxNumber = "";
+let guessedNumber = 0;
+
+let isMaxANumber = true;
 let isGuessANumber = true;
+
 let maxStoper = 5;
+let guessStoper = 5;
 
 let attempts = 0;
 
 const asciiZero = "0".charCodeAt(0); // 48
 const asciiNine = "9".charCodeAt(0); // 57
 
-let guessStoper = 5;
-let guessedNumber = 0;
-
-let maxNumber = "";
-
 do {
-    if (maxStoper < 5) {
-        alert(`Not valid! ${maxStoper} attempts remaining. Try again.`);
-    }
-
     maxNumber = prompt("Please, enter a max number: ");
 
-    isNumber = true;
+    isMaxANumber = true;
+
     for (let i = 0; i < maxNumber.length; i++) {
-        if (maxNumber.charCodeAt(i) < asciiZero + 1 || maxNumber.charCodeAt(i) > asciiNine) {
-            isNumber = false;
+        if (maxNumber.charCodeAt(i) < asciiZero || maxNumber.charCodeAt(i) > asciiNine || maxNumber.charAt(0) == 0) {
+            isMaxANumber = false;
+            maxStoper--;
+            alert(`Not valid! ${maxStoper} tries remaining. Try again.`);
+            break;
         }
     }
-    maxStoper--;
-
-    if (isNumber) {
+    
+    if (isMaxANumber) {
         const randomNumber = Math.floor(Math.random() * parseInt(maxNumber) + 1);
-        alert(`(spoiler: ${randomNumber})`);
+        // alert(`(spoiler: ${randomNumber})`);
 
         let isFound = false;
 
         while(!isFound && guessStoper > 0) {
-            guessedNumber = prompt("Please, try to guess the number: ");
+            guessedNumber = prompt("Try to guess the number: ");
 
             isGuessANumber = true
 
             for (let i = 0; i < guessedNumber.length; i++) {
                 if (guessedNumber.charCodeAt(i) < asciiZero || guessedNumber.charCodeAt(i) > asciiNine) {
-                    alert(`Not a valid answer. ${guessStoper} attempts remaining. Try again.`);
                     isGuessANumber = false;
                     guessStoper--;
+                    alert(`Not a valid answer. ${guessStoper} tries remaining. Try again.`);
                     break;
                 }
             }
@@ -64,7 +63,7 @@ do {
             }
         }
     }
-} while (!isNumber && maxStoper > 0);
+} while (!isMaxANumber && maxStoper > 0);
 
 if (maxStoper <= 0 || guessStoper <= 0) {
     alert("You entered an incorrect value too many times. Reload the page to try again.");

@@ -69,3 +69,5 @@ See source code on GitHub: [github.com/elitalpa/bc](https://github.com/elitalpa/
   - [source code](https://github.com/elitalpa/bc/tree/main/projects/js-for-loops-array-users/script.js)
 - [16 - for loops - students array](https://elitalpa.github.io/bc/projects/js-for-loops-array-students/index.html)
   - [source code](https://github.com/elitalpa/bc/tree/main/projects/js-for-loops-array-students/script.js)
+- [18 - Guess The Number](https://elitalpa.github.io/bc/projects/js-guess-the-number/index.html)
+  - [source code](https://github.com/elitalpa/bc/tree/main/projects/js-guess-the-number/script.js)
