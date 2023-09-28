@@ -1,6 +1,7 @@
 # Training links
 
-- [see on GitHub](https://github.com/elitalpa/bc/blob/main/training-links.md)
+- [GitHub link](https://github.com/elitalpa/bc/blob/main/training-links.md)
+- [web link](https://elitalpa.github.io/bc/training-links)
 
 ## JavaScript
 
@@ -64,5 +65,4 @@
 
 ## algos
 
-- more
-	- [edabit.com - challenges](https://edabit.com/challenges)
+- more: [edabit.com - challenges](https://edabit.com/challenges)
