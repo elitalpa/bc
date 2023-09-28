@@ -1,9 +1,14 @@
 # bc
 
 Published with GitHub Pages.  
-[elitalpa.github.io/bc/](https://elitalpa.github.io/bc/)
+- Website Link: [elitalpa.github.io/bc/](https://elitalpa.github.io/bc/)
+- Source Code on GitHub: [github.com/elitalpa/bc](https://github.com/elitalpa/bc)
 
-See source code on GitHub: [github.com/elitalpa/bc](https://github.com/elitalpa/bc)
+## Index
+- [Training Links](https://elitalpa.github.io/bc/training-links)
+- [Projects](https://elitalpa.github.io/bc/#projects)
+  - [CSS](https://elitalpa.github.io/bc/#css)
+  - [JavaScript](https://elitalpa.github.io/bc/#javascript)
 
 ## Projects
 
