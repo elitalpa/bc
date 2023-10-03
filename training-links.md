@@ -3,6 +3,14 @@
 - [GitHub link](https://github.com/elitalpa/bc/blob/main/training-links.md)
 - [web link](https://elitalpa.github.io/bc/training-links)
 
+## Index
+
+- [Training links](#training-links)
+	- [Index](#index)
+	- [JavaScript](#javascript)
+	- [algos](#algos)
+	- [DOM](#dom)
+
 ## JavaScript
 
 - 01b
@@ -66,3 +74,26 @@
 ## algos
 
 - more: [edabit.com - challenges](https://edabit.com/challenges)
+
+- other:
+	- [freecodecamp.org - javascript-algorithms-and-data-structures](https://www.freecodecamp.org/learn/javascript-algorithms-and-data-structures/)
+	- [codewars.com](https://www.codewars.com/)
+	- [leetcode.com](https://leetcode.com/problemset/all/)
+
+## DOM
+
+- 00
+    - [Aaron Jack - The DOM in 4 minutes](https://www.youtube.com/watch?v=KShnPYN-voI)
+- 01
+    - [Net Ninja - JavaScript DOM Tutorial #2 - Get Element By ID](https://www.youtube.com/watch?v=t90K6HExEJo)
+    - [Net Ninja - JavaScript DOM Tutorial #3 - Get Elements By Class or Tag](https://www.youtube.com/watch?v=oUpEKosnC8E)
+    - [Net Ninja - JavaScript DOM Tutorial #4 - The Query Selector](https://www.youtube.com/watch?v=JlgLDfINXvY)
+- 04
+    - [Net Ninja - JavaScript DOM Tutorial #5 - Changing Text & HTML Content](https://www.youtube.com/watch?v=hDN5IGUv3Yw)
+- 06
+    - [Net Ninja - JavaScript DOM Tutorial #7 - Traversing the DOM (part 1)](https://www.youtube.com/watch?v=VMRo6Uv856E)
+    - [Net Ninja - JavaScript DOM Tutorial #8 - Traversing the DOM (part 2)](https://www.youtube.com/watch?v=3J3AV3763hE)
+- 11
+    - [Net Ninja - HTML & CSS Crash Course Tutorial #3 - HTML Forms](https://www.youtube.com/watch?v=YwbIeMlxZAU)
+    - [Bro Code - Learn HTML forms in 8 minutes 📝](https://www.youtube.com/watch?v=2O8pkybH6po)
+    - [w3schools.com/html/html_forms.asp](https://www.w3schools.com/html/html_forms.asp)
