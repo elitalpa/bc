@@ -4,11 +4,19 @@ Published with GitHub Pages.
 - Website Link: [elitalpa.github.io/bc/](https://elitalpa.github.io/bc/)
 - Source Code on GitHub: [github.com/elitalpa/bc](https://github.com/elitalpa/bc)
 
-## Index
+## Links
+
 - [Training Links](https://elitalpa.github.io/bc/training-links)
-- [Projects](https://elitalpa.github.io/bc/#projects)
-  - [CSS](https://elitalpa.github.io/bc/#css)
-  - [JavaScript](https://elitalpa.github.io/bc/#javascript)
+
+## Index
+- [bc](#bc)
+  - [Links](#links)
+  - [Index](#index)
+  - [Projects](#projects)
+    - [CSS](#css)
+    - [JavaScript](#javascript)
+    - [Algos](#algos)
+    - [DOM](#dom)
 
 ## Projects
 
@@ -80,3 +88,12 @@ Published with GitHub Pages.
   - [source code](https://github.com/elitalpa/bc/tree/main/projects/js-to-do-list/script.js)
 - [21 - function - Musical Notes](https://elitalpa.github.io/bc/projects/js-function-musical-notes/index.html)
   - [source code](https://github.com/elitalpa/bc/tree/main/projects/js-function-musical-notes/script.js)
+- ...
+
+### Algos
+
+- ...
+
+### DOM
+
+- ...
